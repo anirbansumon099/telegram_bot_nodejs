@@ -1,7 +1,8 @@
 // bot.js
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = process.env.BOT_TOKEN;
+const token ="7814244698:AAHyE2tsIxl7Xwhg2l65rhqF8Mt2zLdOT34";
+//process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
