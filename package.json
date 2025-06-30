@@ -1,12 +1,13 @@
 {
-  "name": "telegram-bot",
+  "name": "telegram-node-bot",
   "version": "1.0.0",
-  "description": "A simple Telegram bot hosted on Render",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0"
+    "node-telegram-bot-api": "^0.61.0",
+    "sqlite3": "^5.1.6",
+    "telegram-keyboard": "^1.4.0"
   }
 }
